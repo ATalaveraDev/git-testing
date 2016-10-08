@@ -9,8 +9,7 @@ var wizard = (function () {
   };
 
   this.romer = function () {
-  	var pepe = 'Soy Pepe';
-  	alert(pepe);
+  	alert('Soy Pepe');
   };
 
   this.status = function () {

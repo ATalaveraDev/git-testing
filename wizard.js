@@ -4,16 +4,16 @@ var wizard = (function () {
   };
 
   this.fireball = function () {
-    alert('Launching fireball');
+    console.log('Launching fireball');
   };
 
-  this.romer = function () {
+  this.romero = function () {
   	var pepe = 'Soy Pepe';
   	alert(pepe);
   };
 
   this.status = function () {
-  	return 'OK';
+  	return 'KO';
   };
 
   return this.init();

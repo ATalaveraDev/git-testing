@@ -11,4 +11,6 @@ var wizard = (function () {
   this.status = function () {
   	return 'OK';
   };
+
+  return this.init();
 })();

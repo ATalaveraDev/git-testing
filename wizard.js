@@ -16,5 +16,9 @@ var wizard = (function () {
   	return 'KO';
   };
 
+  this.attack = function () {
+    alert('Yiiah');
+  };
+
   return this.init();
 })();

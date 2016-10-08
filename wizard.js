@@ -7,4 +7,8 @@ var wizard = (function () {
   	var pepe = 'Soy Pepe';
   	alert(pepe);
   };
+
+  this.status = function () {
+  	return 'OK';
+  };
 })();
